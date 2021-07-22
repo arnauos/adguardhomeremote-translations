@@ -239,6 +239,10 @@
 "dhcp_remove_lease" = "移除租約";
 "dhcp_leases" = "租約";
 "dhcp_lease_create" = "創建靜態租約";
+"dhcp_reset_all_leases" = "重置所有租约";
+"dhcp_reset_all_leases_footer" = "移除所有現行的租約而沒清除租約配置。";
+"dhcp_reset_all_leases_alert_title" = "重置租約";
+"dhcp_reset_all_leases_alert_body" = "您确定您想重置所有租约吗？";
 "dhcp_pro_required" = "Remote Pro 是必須的以管理 DHCP 設定。";
 // New Static Lease
 "dhcp_staticlease_new" = "新的靜態租約";
@@ -260,6 +264,8 @@
 "dns_upstream_mode_fastest" = "最快的 IP 位址";
 "dns_bootstrap_dns_servers" = "自我啟動（Bootstrap）DNS 伺服器";
 "dns_bootstrap_dns_servers_footer" = "自我啟動（Bootstrap）DNS 伺服器被用於解析您明確指定作為上游的 DoH/DoT 解析器之 IP 位址。";
+"dns_private_dns_servers" = "私人 DNS 伺服器";
+"dns_private_dns_servers_footer" = "AdGuard Home 用於區域指標（PTR）查詢之 DNS 伺服器。";
 "dns_server_configuration" = "DNS 伺服器配置";
 "dns_rate_limit" = "速率限制";
 "dns_edns_client_subnet" = "對於 DNS 的擴充機制（EDNS）用戶端子網路";
@@ -499,6 +505,7 @@
 // Durations
 "disabled" = "已禁用";
 "1h" = "1 小時";
+"6h" = "6 小時";
 "12h" = "12 小時";
 "24h" = "24 小時";
 "3d" = "3 天";

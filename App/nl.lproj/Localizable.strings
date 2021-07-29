@@ -479,6 +479,8 @@
 "remove" = "Verwijder";
 "ok" = "OK";
 "cancel" = "Annuleren";
+"reset" = "Reset";
+"refresh" = "Refresh";
 "settings" = "Instellingen";
 "cannot_reach_instance" = "Kan instantie niet bereiken.";
 "not_responding" = "Geen Reactie";

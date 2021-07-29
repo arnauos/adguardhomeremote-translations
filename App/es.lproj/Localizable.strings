@@ -479,6 +479,8 @@
 "remove" = "Borrar";
 "ok" = "Aceptar";
 "cancel" = "Cancelar";
+"reset" = "Restablecer";
+"refresh" = "Refresh";
 "settings" = "Ajustes";
 "cannot_reach_instance" = "No se puede contactar con la instancia";
 "not_responding" = "Sin respuesta";

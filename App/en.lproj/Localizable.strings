@@ -479,6 +479,8 @@
 "remove" = "Remove";
 "ok" = "OK";
 "cancel" = "Cancel";
+"reset" = "Reset";
+"refresh" = "Refresh";
 "settings" = "Settings";
 "cannot_reach_instance" = "Can't reach instance.";
 "not_responding" = "Not Responding";

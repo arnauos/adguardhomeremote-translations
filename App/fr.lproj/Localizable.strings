@@ -257,7 +257,6 @@
 "dns_settings" = "Paramètres DNS";
 "dns_upstream_dns_servers" = "Serveurs DNS upstream";
 "dns_ip" = "IP";
-"dns_reverse_resolve" = "Résolution inverse des IP des clients";
 "dns_upstream_mode" = "Mode upstream";
 "dns_upstream_mode_loadbalancing" = "Équilibrage de charge";
 "dns_upstream_mode_parralel" = "Demandes en parallèle";
@@ -266,6 +265,10 @@
 "dns_bootstrap_dns_servers_footer" = "Les serveurs DNS d’amorçage sont utilisés pour résoudre les adresses IP des résolveurs DoH/DoT que vous spécifiez comme upstream";
 "dns_private_dns_servers" = "Serveurs DNS privés";
 "dns_private_dns_servers_footer" = "Les serveurs DNS utilisés par AdGuard Home pour les requêtes PTR servies localement.";
+"dns_use_private_dns_resolvers" = "Utiliser des résolveurs DNS inversés privés";
+"dns_use_private_dns_resolvers_help" = "Effectuer des recherches DNS inversées pour les adresses servies localement en utilisant ces serveurs en amont. S'il est désactivé, AdGuard Home répond avec NXDOMAIN à toutes les requêtes PTR de ce type, sauf pour les clients connus par DHCP, /etc/hosts, etc.";
+"dns_reverse_resolve" = "Résolution inverse des IP des clients";
+"dns_reverse_resolve_help" = "Résoudre inversement les adresses IP des clients en leurs noms d'hôtes en envoyant des requêtes PTR aux résolveurs correspondants (serveurs DNS privés pour les clients locaux, serveurs en amont pour les clients ayant une adresse IP publique).";
 "dns_server_configuration" = "Configuration du serveur DNS";
 "dns_rate_limit" = "Limite de taux";
 "dns_edns_client_subnet" = "Sous-réseau du client EDNS";
@@ -279,6 +282,7 @@
 "dns_blocking_mode_customip" = "IP personnalisée";
 "dns_cache_configuration" = "Configuration du cache DNS";
 "dns_cache_size" = "Taille du cache";
+"dns_cache_optimistic" = "Optimiste";
 "dns_override_minimum_ttl" = "Remplacer le TTL minimum";
 "dns_override_maximum_ttl" = "Remplacer le TTL maximum";
 "dns_pro_required" = "Remote Pro est requis pour gérer les paramètres DNS.";
@@ -338,6 +342,7 @@
 "preferences_dashboard_show_section" = "Afficher la section";
 "preferences_dashboard_number_of_clients" = "Nombre de clients";
 "preferences_dashboard_number_of_domains" = "Nombre de domaines";
+"preferences_querylog_show_sidebar" = "Show sidebar";
 "preferences_other" = "Autres";
 "preferences_language" = "Langue";
 
@@ -384,7 +389,7 @@
 "design_system_setting" = "Utiliser les paramètres du système";
 "design_always_lightmode" = "Mode clair";
 "design_always_darkmode" = "Mode sombre";
-"design_restart_required" = "La modification de ce paramètre nécessite un redémarrage de l’app.";
+"settings_restart_required" = "La modification de ce paramètre nécessite un redémarrage de l’app.";
 
 // MARK: Changelog
 "changelog_just_updated" = "Tout juste mis à jour !";

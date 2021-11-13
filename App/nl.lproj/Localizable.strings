@@ -26,6 +26,9 @@
 // MARK: - Query Log
 "querylog_tabbar" = "Query Log";
 "querylog_query" = "Query";
+"querylog_livelog" = "Live Log";
+"querylog_livelog_no_queries_yet" = "Nog geen queries gevonden...";
+"querylog_livelog_pro" = "Remote Pro is vereist om meer queries te zien.";
 "querylog_no-queries" = "Geen queries gevonden.";
 "querylog_cannot-find-queries" = "Kon geen queries vinden..";
 "querylog_pro" = "Remote Pro is vereist om meer queries te zien.";
@@ -346,6 +349,7 @@
 "preferences_dashboard_show_section" = "Toon onderdeel";
 "preferences_dashboard_number_of_clients" = "Aantal cliënten";
 "preferences_dashboard_number_of_domains" = "Aantal domeinen";
+"preferences_dashboard_auto_refresh" = "Ververs automatisch elke minuut";
 "preferences_querylog_show_sidebar" = "Toon zijbalk";
 "preferences_other" = "Overig";
 "preferences_language" = "Taal";
@@ -354,6 +358,7 @@
 "settings_help" = "Help & Feedback";
 "settings_help_navbar" = "Support";
 "settings_help_contact" = "Neem contact op";
+"settings_help_contact_footer" = "Gebruik graag Nederlands of Engels voor je vragen!";
 "settings_help_actions" = "Acties";
 "settings_help_logs" = "Logs";
 "settings_help_logs_footer" = "Logs worden lokaal weggeschreven en verlaten nooit je device. Swipe naar beneden om de log-viewer te sluiten.";
@@ -429,6 +434,7 @@
 
 // MARK: Pro Features
 "pro_view_queries" = "Bekijk meer dan 25 queries & stel filters in";
+"pro_livelog" = "Bekijk een live query log";
 "pro_manage_clients" = "Beheer cliënten";
 "pro_manage_filters" = "Beheer filters";
 "pro_manage_custom_filter_rules" = "Beheer aangepaste filterregels";

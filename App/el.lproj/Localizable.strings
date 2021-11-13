@@ -26,6 +26,9 @@
 // MARK: - Query Log
 "querylog_tabbar" = "Αρχείο ερωτημάτων";
 "querylog_query" = "Ερώτημα";
+"querylog_livelog" = "Live Log";
+"querylog_livelog_no_queries_yet" = "No queries found yet...";
+"querylog_livelog_pro" = "Remote Pro is required to view more queries.";
 "querylog_no-queries" = "Δεν βρέθηκαν ερωτήματα.";
 "querylog_cannot-find-queries" = "Αδυναμία εύρεσης ερωτημάτων.";
 "querylog_pro" = "Το Remote Pro απαιτείται για να δείτε περισσότερα ερωτήματα.";
@@ -346,6 +349,7 @@
 "preferences_dashboard_show_section" = "Εμφάνιση ενότητας";
 "preferences_dashboard_number_of_clients" = "Αριθμός πελατών";
 "preferences_dashboard_number_of_domains" = "Αριθμός domain";
+"preferences_dashboard_auto_refresh" = "Auto-refresh every minute";
 "preferences_querylog_show_sidebar" = "Show sidebar";
 "preferences_other" = "Άλλα";
 "preferences_language" = "Γλώσσα";
@@ -354,6 +358,7 @@
 "settings_help" = "Βοήθεια & σχόλια";
 "settings_help_navbar" = "Υποστήριξη";
 "settings_help_contact" = "Επικοινωνία";
+"settings_help_contact_footer" = "Please use English for support requests!";
 "settings_help_actions" = "Ενέργειες";
 "settings_help_logs" = "Αρχεία";
 "settings_help_logs_footer" = "Τα αρχεία καταγραφής καταγράφονται τοπικά και δεν φεύγουν ποτέ από τη συσκευή σας. Σύρετε προς τα κάτω για να βγείτε από την προβολή αρχείων καταγραφής.";
@@ -429,6 +434,7 @@
 
 // MARK: Pro Features
 "pro_view_queries" = "Εμφάνιση 25+ ερωτημάτων & εφαρμογή φίλτρων";
+"pro_livelog" = "View Live Query Log";
 "pro_manage_clients" = "Διαχείριση πελατών";
 "pro_manage_filters" = "Διαχείριση φίλτρων";
 "pro_manage_custom_filter_rules" = "Διαχείριση κανόνων προσαρμοσμένων φίλτρων";

@@ -26,6 +26,9 @@
 // MARK: - Query Log
 "querylog_tabbar" = "Query Log";
 "querylog_query" = "Query";
+"querylog_livelog" = "Live Log";
+"querylog_livelog_no_queries_yet" = "No queries found yet...";
+"querylog_livelog_pro" = "Remote Pro is required to view more queries.";
 "querylog_no-queries" = "No queries found.";
 "querylog_cannot-find-queries" = "Can't find any queries.";
 "querylog_pro" = "Remote Pro is required to view more queries.";
@@ -346,6 +349,7 @@
 "preferences_dashboard_show_section" = "Show section";
 "preferences_dashboard_number_of_clients" = "Number of clients";
 "preferences_dashboard_number_of_domains" = "Number of domains";
+"preferences_dashboard_auto_refresh" = "Auto-refresh every minute";
 "preferences_querylog_show_sidebar" = "Show sidebar";
 "preferences_other" = "Other";
 "preferences_language" = "Language";
@@ -354,6 +358,7 @@
 "settings_help" = "Help & Feedback";
 "settings_help_navbar" = "Support";
 "settings_help_contact" = "Contact me";
+"settings_help_contact_footer" = "Please use English for support requests!";
 "settings_help_actions" = "Actions";
 "settings_help_logs" = "Logs";
 "settings_help_logs_footer" = "Logs are recorded locally and never leave your device. Swipe down to exit the Log viewer.";
@@ -429,6 +434,7 @@
 
 // MARK: Pro Features
 "pro_view_queries" = "View 25+ Queries & Set Filters";
+"pro_livelog" = "View Live Query Log";
 "pro_manage_clients" = "Manage Clients";
 "pro_manage_filters" = "Manage Filters";
 "pro_manage_custom_filter_rules" = "Manage Custom Filter Rules";

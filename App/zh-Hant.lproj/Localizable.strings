@@ -350,9 +350,22 @@
 "preferences_dashboard_number_of_clients" = "用戶端之數量";
 "preferences_dashboard_number_of_domains" = "網域之數量";
 "preferences_dashboard_auto_refresh" = "每分鐘自動重新整理";
+"preferences_dashboard_extra_confirmation" = "作為按鈕的確認警報";
 "preferences_querylog_show_sidebar" = "顯示側邊欄";
 "preferences_other" = "其它";
 "preferences_language" = "語言";
+"preferences_lock_password" = "用密碼鎖定";
+"preferences_lock_faceid" = "用 Face ID 鎖定";
+"preferences_lock_touchid" = "用 Touch ID 鎖定";
+"preferences_lock_footer" = "如果被啟用，每當您關閉該應用程式時，AdGuard Home Remote 將被鎖定。當重新啟動時，您將被提醒去驗證。";
+"preferences_lock_require" = "需要";
+"preferences_lock_require_immediately" = "立即";
+"preferences_lock_require_1min" = "在 1 分鐘之後";
+"preferences_lock_require_5min" = "在 5 分鐘之後";
+"preferences_lock_require_1hour" = "在 1 小時之後";
+"preferences_lock_unlock_button" = "解鎖";
+"preferences_lock_unlock_footnote_tap" = "輕觸上面以解鎖 AdGuard Home Remote";
+"preferences_lock_unlock_footnote_click" = "點擊上面以解鎖 AdGuard Home Remote";
 
 // MARK: Help
 "settings_help" = "幫助 & 回饋意見";
@@ -411,7 +424,7 @@
 "changelog_improved" = "已改善的";
 "changelog_fixed" = "已修復的";
 "changelog_view_full" = "檢視完整的變更記錄";
-"changelog_show_feature_promo" = "顯示特色商品促銷";
+"changelog_show_feature_promo" = "顯示功能促進";
 "changelog_show_on_app_update" = "顯示有關應用程式更新";
 "changelog_show_on_app_update_footer" = "該變更記錄將僅顯示有關功能更新，非有關只包含程式錯誤修正的更新。";
 "changelog_settings" = "變更記錄設定";

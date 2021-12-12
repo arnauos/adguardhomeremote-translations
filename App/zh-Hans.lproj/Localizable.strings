@@ -350,9 +350,22 @@
 "preferences_dashboard_number_of_clients" = "客户端数量";
 "preferences_dashboard_number_of_domains" = "域名数量";
 "preferences_dashboard_auto_refresh" = "每分钟自动刷新";
+"preferences_dashboard_extra_confirmation" = "Confirmation alert for buttons";
 "preferences_querylog_show_sidebar" = "显示侧边栏";
 "preferences_other" = "其他";
 "preferences_language" = "语言";
+"preferences_lock_password" = "Lock with password";
+"preferences_lock_faceid" = "使用面容ID锁定";
+"preferences_lock_touchid" = "使用触控ID锁定";
+"preferences_lock_footer" = "如启用，AdGuard Home Remote 将在您关闭程序时锁定，再次启动时您将被要求验证身份。";
+"preferences_lock_require" = "要求验证";
+"preferences_lock_require_immediately" = "立即";
+"preferences_lock_require_1min" = "1 分钟后";
+"preferences_lock_require_5min" = "5 分钟后";
+"preferences_lock_require_1hour" = "1 小时后";
+"preferences_lock_unlock_button" = "解锁";
+"preferences_lock_unlock_footnote_tap" = "点击上方解锁 AdGuard Home Remote";
+"preferences_lock_unlock_footnote_click" = "点击上方解锁 AdGuard Home Remote";
 
 // MARK: Help
 "settings_help" = "帮助与反馈";

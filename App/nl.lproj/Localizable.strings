@@ -21,6 +21,10 @@
 "dashboard_top-queried" = "Top Bezochte Domeinen";
 "dashboard_top-blocked" = "Top Geblokkeerde Domeinen";
 "dashboard_avg_ms_%@" = "gem %@ms";
+"dashboard_confirmation_enable_%@" = "Weet je zeker dat je %@ wil inschakelen?";
+"dashboard_confirmation_enable_button" = "Inschakelen";
+"dashboard_confirmation_disable_%@" = "Weet je zeker dat je %@ wil uitschakelen?";
+"dashboard_confirmation_disable_button" = "Uitschakelen";
 "dashboard_jump_to_instance" = "Instantie";
 
 // MARK: - Query Log
@@ -87,6 +91,7 @@
 "querydetail_protocol" = "Protocol";
 "querydetail_response_details" = "Response";
 "querydetail_validated_with_dnssec" = "Gevalideerd met DNSSEC";
+"querydetail_served_from_cache" = "Geleverd vanuit cache";
 "querydetail_response_code" = "Reactiecode";
 "querydetail_response_time" = "Reactietijd";
 "querydetail_upstream" = "Upstream";
@@ -476,13 +481,14 @@
 // MARK: RocketScience
 "settings_rocketscience" = "Gemaakt door RocketScience";
 "rocketscience_hi_title" = "Hi, ik ben Joost!";
-"rocketscience_hi_subtitle" = "In juni 2020 ben ik begonnen met het maken van m'n eigen apps als indie ontwikkelaar, onder de naam 'RocketScience IT'.\n\nMijn doel is om te leren: onwerpen, ontwikkelen, testen, support, marketing - misschien nog wel meer! Op dit moment heb ik twee apps in de App Store die ik continue verbeter. Daarnaast heb ik nog veel ideeën voor andere apps die ik wil maken in de toekomst!.";
+"rocketscience_hi_subtitle" = "In juni 2020 ben ik begonnen met het maken van m'n eigen apps als indie ontwikkelaar, onder de naam 'RocketScience IT'.\n\nMijn doel is om te leren: onwerpen, ontwikkelen, testen, support, marketing - misschien nog wel meer! Op dit moment heb ik drie apps in de App Store die ik continue verbeter. Daarnaast heb ik nog veel ideeën voor andere apps die ik wil maken in de toekomst!";
 "rocketscience_website" = "Website";
 "rocketscience_twitter" = "Twitter";
 "rocketscience_tipjar" = "Fooienpot";
 "rocketscience_tipjar_thankyou" = "Bedankt!";
 "rocketscience_my_other_apps" = "Mijn Andere Apps";
 "rocketscience_piholeremote_subtitle" = "Alles voor Pi-hole op één plek.";
+"rocketscience_energieradar_subtitle" = "Real-time inzicht in stroomprijzen in Nederland.";
 "rocketscience_acknoledgements" = "Met dank aan";
 
 // MARK: Tip Jar

@@ -42,6 +42,7 @@
 "querylog_filter" = "篩選";
 "querylog_filtered" = "已篩選的";
 "querylog_number-of-queries" = "查詢之數量";
+"querylog_show_extra_detail" = "顯示額外的細節";
 "querylog_status" = "狀態";
 "querylog_status-all" = "所有的";
 "querylog_status-filtered" = "受過濾的";
@@ -98,6 +99,8 @@
 "querydetail_copy_upstream" = "複製上游";
 "querydetail_block_domain" = "封鎖網域";
 "querydetail_unblock_domain" = "解除封鎖網域";
+"querydetail_block_domain_for_client" = "Block Domain for this client only";
+"querydetail_unblock_domain_for_client" = "Unblock Domain for this client only";
 "querydetail_answer" = "回應";
 "querydetail_ttl_%lld" = "存活時間（TTL）%lld";
 
@@ -219,6 +222,8 @@
 "filtering_rules_examples_block_subtitle" = "封鎖 example.org 和所有它的子網域";
 "filtering_rules_examples_unblock_title" = "@@||example.org^";
 "filtering_rules_examples_unblock_subtitle" = "解除封鎖 example.org 和所有它的子網域 ";
+"filtering_rules_examples_block_client_title" = "||example.org^$client=192.168.1.42";
+"filtering_rules_examples_block_client_subtitle" = "block example.org and all its subdomains for client IP 192.168.1.42";
 "filtering_rules_examples_rewrite_title" = "127.0.0.1 example.org";
 "filtering_rules_examples_rewrite_subtitle" = "對 example.org 網域（但非其子網域）返回 127.0.0.1 位址";
 "filtering_rules_examples_comment_title1" = "! 看，一個註解";
@@ -481,7 +486,7 @@
 // MARK: RocketScience
 "settings_rocketscience" = "由 RocketScience 製作";
 "rocketscience_hi_title" = "嗨，我是 Joost！";
-"rocketscience_hi_subtitle" = "在 2020 年 6 月，我開始以 'RocketScience IT' 名義作為獨立的開發者建置我自己的應用程式。\n\n我的主要目標是學習：設計、開發、測試、支援和推廣 - 也許甚至更多！就在此刻，於商店中我有兩款應用程式，我正在持續地改進 & 對於在未來我可能想要製作的其它應用程式有很多的構想。";
+"rocketscience_hi_subtitle" = "在 2020 年 6 月，我開始以 'RocketScience IT' 名義作為獨立的開發者建置我自己的應用程式。\n\n我的主要目標是學習：設計、開發、測試、支援和推廣 - 也許甚至更多！就在此刻，於商店中我有一些應用程式，我正在持續地改進 & 對於在未來我可能想要製作的其它應用程式有很多的構想。";
 "rocketscience_website" = "網站";
 "rocketscience_twitter" = "Twitter";
 "rocketscience_tipjar" = "打賞";

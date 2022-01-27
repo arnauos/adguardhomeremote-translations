@@ -66,7 +66,7 @@
 "query_status_FilteredParental" = "已封鎖的 | 家長";
 "query_status_FilteredInvalid" = "已封鎖的 | 無效的請求";
 "query_status_FilteredSafeSearch" = "已封鎖的 | 安全搜尋";
-"query_status_FilteredBlockedService_%@" = "已封鎖的服務%@";
+"query_status_FilteredBlockedService_%@" = "已封鎖的服務 %@";
 "query_status_Rewrite" = "改寫";
 "query_status_RewriteEtcHosts" = "改寫 | 主機檔案";
 "query_status_RewriteRule" = "改寫 | 規則";
@@ -99,8 +99,8 @@
 "querydetail_copy_upstream" = "複製上游";
 "querydetail_block_domain" = "封鎖網域";
 "querydetail_unblock_domain" = "解除封鎖網域";
-"querydetail_block_domain_for_client" = "Block Domain for this client only";
-"querydetail_unblock_domain_for_client" = "Unblock Domain for this client only";
+"querydetail_block_domain_for_client" = "對此用戶端封鎖網域";
+"querydetail_unblock_domain_for_client" = "對此用戶端解除封鎖網域";
 "querydetail_answer" = "回應";
 "querydetail_ttl_%lld" = "存活時間（TTL）%lld";
 
@@ -221,9 +221,9 @@
 "filtering_rules_examples_block_title" = "||example.org^";
 "filtering_rules_examples_block_subtitle" = "封鎖 example.org 和所有它的子網域";
 "filtering_rules_examples_unblock_title" = "@@||example.org^";
-"filtering_rules_examples_unblock_subtitle" = "解除封鎖 example.org 和所有它的子網域 ";
+"filtering_rules_examples_unblock_subtitle" = "解除封鎖 example.org 和所有它的子網域";
 "filtering_rules_examples_block_client_title" = "||example.org^$client=192.168.1.42";
-"filtering_rules_examples_block_client_subtitle" = "block example.org and all its subdomains for client IP 192.168.1.42";
+"filtering_rules_examples_block_client_subtitle" = "對用戶端 IP 192.168.1.42 封鎖 example.org 和所有它的子網域";
 "filtering_rules_examples_rewrite_title" = "127.0.0.1 example.org";
 "filtering_rules_examples_rewrite_subtitle" = "對 example.org 網域（但非其子網域）返回 127.0.0.1 位址";
 "filtering_rules_examples_comment_title1" = "! 看，一個註解";
@@ -255,6 +255,8 @@
 "dhcp_remove_lease" = "移除租約";
 "dhcp_leases" = "租約";
 "dhcp_lease_create" = "創建靜態租約";
+"dhcp_add_client_with_ip" = "新的用戶端（以 IP）";
+"dhcp_add_client_with_mac" = "新的用戶端（以 MAC）";
 "dhcp_reset_all_leases" = "重置所有的租約";
 "dhcp_reset_all_leases_footer" = "移除所有現行的租約而沒清除租約配置。";
 "dhcp_reset_all_leases_alert_title" = "重置租約";
@@ -298,9 +300,12 @@
 "dns_blocking_mode_customip" = "自訂的 IP";
 "dns_cache_configuration" = "DNS 快取配置";
 "dns_cache_size" = "快取大小";
+"dns_cache_size_in_bytes" = "以位元組";
 "dns_cache_optimistic" = "樂觀快取";
+"dns_cache_optimistic_explainer" = "即使當項目為已到期的，從快取使 AdGuard Home 回覆，並還嘗試重新整理它們。";
 "dns_override_minimum_ttl" = "覆寫最小的存活時間（TTL）";
 "dns_override_maximum_ttl" = "覆寫最大的存活時間（TTL）";
+"dns_override_in_seconds" = "以秒數";
 "dns_pro_required" = "Remote Pro 是必須的以管理 DNS 設定。";
 
 // MARK: DNS Rewrites
@@ -364,6 +369,8 @@
 "preferences_querylog_show_sidebar" = "顯示側邊欄";
 "preferences_other" = "其它";
 "preferences_language" = "語言";
+"preferences_language_macos_alert" = "變更語言";
+"preferences_language_macos_alert_body" = "為了於 macOS 上自訂應用程式的語言，前往'系統偏好設定 > 語言 & 區域 > 應用程式'，在那新增此應用程式並選擇一種語言。";
 "preferences_lock_password" = "用密碼鎖定";
 "preferences_lock_faceid" = "用 Face ID 鎖定";
 "preferences_lock_touchid" = "用 Touch ID 鎖定";
@@ -378,6 +385,7 @@
 "preferences_lock_unlock_footnote_click" = "點擊上面以解鎖 AdGuard Home Remote";
 
 // MARK: Help
+"help_callout" = "需要幫助嗎？";
 "settings_help" = "幫助 & 回饋意見";
 "settings_help_navbar" = "支援";
 "settings_help_contact" = "與我聯繫";
@@ -393,6 +401,7 @@
 // MARK: Other Settings
 "settings_other" = "其它";
 "settings_pro" = "Pro";
+"settings_leave_review" = "留下一則評論";
 "settings_twitter" = "於 Twitter 上追隨";
 "settings_changelog" = "有什麼新事物嗎？";
 "settings_adguard-website" = "AdGuard 網站";
@@ -419,6 +428,8 @@
 "design_app_icon_original" = "原始";
 "design_app_icon_inverse" = "反向";
 "design_app_icon_dark" = "深色";
+"design_app_icon_blueprint" = "藍圖";
+"design_app_icon_pride" = "Pride";
 "design_theme" = "主題";
 "design_system_setting" = "使用系統設定";
 "design_always_lightmode" = "總是淺色模式";
@@ -493,7 +504,7 @@
 "rocketscience_tipjar_thankyou" = "感謝您！";
 "rocketscience_my_other_apps" = "我的其它應用程式";
 "rocketscience_piholeremote_subtitle" = "Pi-hole 的一切在一個地方。";
-"rocketscience_energieradar_subtitle" = "關注在荷蘭的即時電價。";
+"rocketscience_energieradar_subtitle" = "關注在荷蘭的即時電價和天然氣價格。";
 "rocketscience_acknoledgements" = "對以下的特別感謝";
 
 // MARK: Tip Jar
@@ -564,3 +575,7 @@
 // MARK: Widgets
 "widget_dashboard" = "儀表板小工具";
 "widget_dashboard_description" = "檢視您的儀表板統計資料。";
+
+// MARK: Apple Watch
+"loading_instances_icloud" = "正在從 iCloud 載入實例…";
+"watch_stuck_reinstall" = "這可能需要一段時間。如果此應用程式卡在轉盤上，請嘗試重新安裝它。為該不便而抱歉！";

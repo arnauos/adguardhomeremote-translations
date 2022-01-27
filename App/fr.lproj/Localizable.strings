@@ -99,8 +99,8 @@
 "querydetail_copy_upstream" = "Copier l’upstream";
 "querydetail_block_domain" = "Bloquer ce domaine";
 "querydetail_unblock_domain" = "Débloquer ce domaine";
-"querydetail_block_domain_for_client" = "Block Domain for this client only";
-"querydetail_unblock_domain_for_client" = "Unblock Domain for this client only";
+"querydetail_block_domain_for_client" = "Block Domain for this client";
+"querydetail_unblock_domain_for_client" = "Unblock Domain for this client";
 "querydetail_answer" = "Réponse";
 "querydetail_ttl_%lld" = "TTL %lld";
 
@@ -255,6 +255,8 @@
 "dhcp_remove_lease" = "Supprimer le bail";
 "dhcp_leases" = "Baux";
 "dhcp_lease_create" = "Créer un bail statique";
+"dhcp_add_client_with_ip" = "New Client (with IP)";
+"dhcp_add_client_with_mac" = "New Client (with MAC)";
 "dhcp_reset_all_leases" = "Réinitialiser tous les baux";
 "dhcp_reset_all_leases_footer" = "Removes all current leases without erasing the lease configuration.";
 "dhcp_reset_all_leases_alert_title" = "Réinitialiser tous les baux";
@@ -298,9 +300,12 @@
 "dns_blocking_mode_customip" = "IP personnalisée";
 "dns_cache_configuration" = "Configuration du cache DNS";
 "dns_cache_size" = "Taille du cache";
+"dns_cache_size_in_bytes" = "en bytes";
 "dns_cache_optimistic" = "Optimiste";
+"dns_cache_optimistic_explainer" = "Faites en sorte qu'AdGuard Home réponde à partir du cache même lorsque les entrées ont expiré et essayez également de les actualiser.";
 "dns_override_minimum_ttl" = "Remplacer le TTL minimum";
 "dns_override_maximum_ttl" = "Remplacer le TTL maximum";
+"dns_override_in_seconds" = "en secondes";
 "dns_pro_required" = "Remote Pro est requis pour gérer les paramètres DNS.";
 
 // MARK: DNS Rewrites
@@ -364,6 +369,8 @@
 "preferences_querylog_show_sidebar" = "Show sidebar";
 "preferences_other" = "Autres";
 "preferences_language" = "Langue";
+"preferences_language_macos_alert" = "Change Language";
+"preferences_language_macos_alert_body" = "To change the language of the app on macOS, open 'System Preferences > Language & Region > Apps' and add the app there.";
 "preferences_lock_password" = "Lock with password";
 "preferences_lock_faceid" = "Verrouillage FaceId";
 "preferences_lock_touchid" = "Verrouillage Touch ID";
@@ -378,6 +385,7 @@
 "preferences_lock_unlock_footnote_click" = "Click above to unlock AdGuard Home Remote";
 
 // MARK: Help
+"help_callout" = "Need help?";
 "settings_help" = "Aide et commentaires";
 "settings_help_navbar" = "Support";
 "settings_help_contact" = "Me contacter";
@@ -393,6 +401,7 @@
 // MARK: Other Settings
 "settings_other" = "Autres";
 "settings_pro" = "Pro";
+"settings_leave_review" = "Laisser un commentaire";
 "settings_twitter" = "Suivre sur Twitter";
 "settings_changelog" = "Quoi de neuf";
 "settings_adguard-website" = "Site Web d’AdGuard";
@@ -419,6 +428,8 @@
 "design_app_icon_original" = "Originale";
 "design_app_icon_inverse" = "Inversé";
 "design_app_icon_dark" = "Sombre";
+"design_app_icon_blueprint" = "Blueprint";
+"design_app_icon_pride" = "Pride";
 "design_theme" = "Thème";
 "design_system_setting" = "Utiliser les paramètres du système";
 "design_always_lightmode" = "Mode clair";
@@ -493,7 +504,7 @@
 "rocketscience_tipjar_thankyou" = "Merci !";
 "rocketscience_my_other_apps" = "Mes autres apps";
 "rocketscience_piholeremote_subtitle" = "Tout Pi-hole en un seul endroit.";
-"rocketscience_energieradar_subtitle" = "Monitor real-time electricity prices in The Netherlands.";
+"rocketscience_energieradar_subtitle" = "Monitor real-time electricity and gas prices in The Netherlands.";
 "rocketscience_acknoledgements" = "Remerciements particuliers";
 
 // MARK: Tip Jar
@@ -564,3 +575,7 @@
 // MARK: Widgets
 "widget_dashboard" = "Widget du tableau de bord";
 "widget_dashboard_description" = "Consultez les statistiques de votre tableau de bord.";
+
+// MARK: Apple Watch
+"loading_instances_icloud" = "Loading instances from iCloud...";
+"watch_stuck_reinstall" = "This can take a while. If the app is stuck on this spinner, please try a reinstall of the app. Sorry for the inconvenience!";

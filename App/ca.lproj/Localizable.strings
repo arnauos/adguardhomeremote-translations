@@ -42,7 +42,7 @@
 "querylog_filter" = "Filtre";
 "querylog_filtered" = "Filtratge";
 "querylog_number-of-queries" = "Número de consultes DNS";
-"querylog_show_extra_detail" = "Show extra detail";
+"querylog_show_extra_detail" = "Mostrar mes informació";
 "querylog_status" = "Estat";
 "querylog_status-all" = "Totes";
 "querylog_status-filtered" = "Filtrades";
@@ -99,8 +99,8 @@
 "querydetail_copy_upstream" = "Copiar servidor DNS";
 "querydetail_block_domain" = "Bloquejar domini";
 "querydetail_unblock_domain" = "Desbloquejar domini";
-"querydetail_block_domain_for_client" = "Block Domain for this client only";
-"querydetail_unblock_domain_for_client" = "Unblock Domain for this client only";
+"querydetail_block_domain_for_client" = "Bloquejar domini només per aquest client";
+"querydetail_unblock_domain_for_client" = "Desbloquejar domini només per aquest cliente";
 "querydetail_answer" = "Resposta";
 "querydetail_ttl_%lld" = "TTL %lld";
 
@@ -223,7 +223,7 @@
 "filtering_rules_examples_unblock_title" = "@@||example.org^";
 "filtering_rules_examples_unblock_subtitle" = "Desbloqueja example.org i tots els seus subdominis";
 "filtering_rules_examples_block_client_title" = "||example.org^$client=192.168.1.42";
-"filtering_rules_examples_block_client_subtitle" = "block example.org and all its subdomains for client IP 192.168.1.42";
+"filtering_rules_examples_block_client_subtitle" = "Bloquear example.org i tots els seus subdominis per el client amb IP 192.168.1.42";
 "filtering_rules_examples_rewrite_title" = "127.0.0.1 example.org";
 "filtering_rules_examples_rewrite_subtitle" = "Retorna 127.0.0.1 per example.org (pero no per als seus subdominis)";
 "filtering_rules_examples_comment_title1" = "! Aquí va un comentari";
@@ -255,6 +255,8 @@
 "dhcp_remove_lease" = "Esborrar";
 "dhcp_leases" = "Assignacions";
 "dhcp_lease_create" = "Afegir assignació estàtica";
+"dhcp_add_client_with_ip" = "New Client (with IP)";
+"dhcp_add_client_with_mac" = "New Client (with MAC)";
 "dhcp_reset_all_leases" = "Restablir totes les assignacions";
 "dhcp_reset_all_leases_footer" = "Elimina totes les adreces assignades sense esborrar-ne la configuració.";
 "dhcp_reset_all_leases_alert_title" = "Restablir assignacions";
@@ -298,9 +300,12 @@
 "dns_blocking_mode_customip" = "IP Personalitzada";
 "dns_cache_configuration" = "Configuració de la memòria cau DNS";
 "dns_cache_size" = "Tamaño";
+"dns_cache_size_in_bytes" = "en bytes";
 "dns_cache_optimistic" = "Optimista";
+"dns_cache_optimistic_explainer" = "Haz que AdGuard Home responda desde la caché incluso cuando las entradas estén expiradas y también intente actualizarlas.";
 "dns_override_minimum_ttl" = "TTL mínim";
 "dns_override_maximum_ttl" = "TTL màxim";
+"dns_override_in_seconds" = "en segundos";
 "dns_pro_required" = "Es necessari actualitzar a Remote Pro per a gestionar la configuració DNS";
 
 // MARK: DNS Rewrites
@@ -364,6 +369,8 @@
 "preferences_querylog_show_sidebar" = "Mostra el panell lateral";
 "preferences_other" = "Altres";
 "preferences_language" = "Idioma";
+"preferences_language_macos_alert" = "Change Language";
+"preferences_language_macos_alert_body" = "To change the language of the app on macOS, open 'System Preferences > Language & Region > Apps' and add the app there.";
 "preferences_lock_password" = "Bloquejar amb contrassenya";
 "preferences_lock_faceid" = "Bloquejar amb Face ID";
 "preferences_lock_touchid" = "Bloquejar amb Touch ID";
@@ -378,6 +385,7 @@
 "preferences_lock_unlock_footnote_click" = "Fes clic per desbloquejar AdGuard Home Remote";
 
 // MARK: Help
+"help_callout" = "Need help?";
 "settings_help" = "Ajuda i comentaris";
 "settings_help_navbar" = "Suport";
 "settings_help_contact" = "Contacta";
@@ -393,6 +401,7 @@
 // MARK: Other Settings
 "settings_other" = "Altres";
 "settings_pro" = "Pro";
+"settings_leave_review" = "Leave a Review";
 "settings_twitter" = "Segueix-me a Twitter";
 "settings_changelog" = "Novetats";
 "settings_adguard-website" = "Pàgina web d'AdGuard";
@@ -419,6 +428,8 @@
 "design_app_icon_original" = "Original";
 "design_app_icon_inverse" = "Invertit";
 "design_app_icon_dark" = "Fosc";
+"design_app_icon_blueprint" = "Blueprint";
+"design_app_icon_pride" = "Pride";
 "design_theme" = "Tema";
 "design_system_setting" = "Utilitzar la configuració del sistema";
 "design_always_lightmode" = "Sempre en mode clar";
@@ -493,7 +504,7 @@
 "rocketscience_tipjar_thankyou" = "Gràcies!";
 "rocketscience_my_other_apps" = "Les meves altres aplicacions";
 "rocketscience_piholeremote_subtitle" = "La teva Pi-hole sota control.";
-"rocketscience_energieradar_subtitle" = "Monitor real-time electricity prices in The Netherlands.";
+"rocketscience_energieradar_subtitle" = "Monitor real-time electricity and gas prices in The Netherlands.";
 "rocketscience_acknoledgements" = "Agraïments especials a";
 
 // MARK: Tip Jar
@@ -564,3 +575,7 @@
 // MARK: Widgets
 "widget_dashboard" = "Tauler de control";
 "widget_dashboard_description" = "Visualitza les estadístiques del teu AdGuard Home.";
+
+// MARK: Apple Watch
+"loading_instances_icloud" = "Loading instances from iCloud...";
+"watch_stuck_reinstall" = "This can take a while. If the app is stuck on this spinner, please try a reinstall of the app. Sorry for the inconvenience!";

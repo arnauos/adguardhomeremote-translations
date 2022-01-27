@@ -42,7 +42,7 @@
 "querylog_filter" = "筛选";
 "querylog_filtered" = "已筛选";
 "querylog_number-of-queries" = "显示请求数";
-"querylog_show_extra_detail" = "Show extra detail";
+"querylog_show_extra_detail" = "显示额外细节";
 "querylog_status" = "响应状态";
 "querylog_status-all" = "全部";
 "querylog_status-filtered" = "已过滤";
@@ -99,8 +99,8 @@
 "querydetail_copy_upstream" = "复制上游服务器";
 "querydetail_block_domain" = "拦截域名";
 "querydetail_unblock_domain" = "放行域名";
-"querydetail_block_domain_for_client" = "Block Domain for this client only";
-"querydetail_unblock_domain_for_client" = "Unblock Domain for this client only";
+"querydetail_block_domain_for_client" = "对此客户端拦截域名";
+"querydetail_unblock_domain_for_client" = "对此客户端放行域名";
 "querydetail_answer" = "响应";
 "querydetail_ttl_%lld" = "TTL %lld";
 
@@ -223,7 +223,7 @@
 "filtering_rules_examples_unblock_title" = "@@||example.org^";
 "filtering_rules_examples_unblock_subtitle" = "放行 example.org 及其所有子域名";
 "filtering_rules_examples_block_client_title" = "||example.org^$client=192.168.1.42";
-"filtering_rules_examples_block_client_subtitle" = "block example.org and all its subdomains for client IP 192.168.1.42";
+"filtering_rules_examples_block_client_subtitle" = "对客户端 IP 192.168.1.42 拦截 example.org 域名及其所有子域名";
 "filtering_rules_examples_rewrite_title" = "127.0.0.1 example.org";
 "filtering_rules_examples_rewrite_subtitle" = "AdGuard Home 现在将会把 example.org（但不包括它的子域名）解析到 127.0.0.1";
 "filtering_rules_examples_comment_title1" = "! 这是一行注释";
@@ -255,6 +255,8 @@
 "dhcp_remove_lease" = "删除租约";
 "dhcp_leases" = "租约";
 "dhcp_lease_create" = "添加静态租约";
+"dhcp_add_client_with_ip" = "New Client (with IP)";
+"dhcp_add_client_with_mac" = "New Client (with MAC)";
 "dhcp_reset_all_leases" = "重置所有租约";
 "dhcp_reset_all_leases_footer" = "移除所有现行的租约而没清除租约配置。";
 "dhcp_reset_all_leases_alert_title" = "重置租约";
@@ -298,9 +300,12 @@
 "dns_blocking_mode_customip" = "自定义 IP";
 "dns_cache_configuration" = "DNS 缓存配置";
 "dns_cache_size" = "缓存大小";
+"dns_cache_size_in_bytes" = "单位：字节";
 "dns_cache_optimistic" = "乐观缓存";
+"dns_cache_optimistic_explainer" = "即使条目已过期，也让 AdGuard Home 从缓存中响应，并尝试刷新它们。";
 "dns_override_minimum_ttl" = "覆盖最小 TTL 值";
 "dns_override_maximum_ttl" = "覆盖最大 TTL 值";
+"dns_override_in_seconds" = "秒";
 "dns_pro_required" = "需要 Remote Pro 来管理 DNS 设置";
 
 // MARK: DNS Rewrites
@@ -364,6 +369,8 @@
 "preferences_querylog_show_sidebar" = "显示侧边栏";
 "preferences_other" = "其他";
 "preferences_language" = "语言";
+"preferences_language_macos_alert" = "更改语言";
+"preferences_language_macos_alert_body" = "要在 macOS 上更改程序语言，请打开 '系统偏好设置 > 语言与地区 > App' 并添加本程序。";
 "preferences_lock_password" = "使用密码锁定";
 "preferences_lock_faceid" = "使用面容ID锁定";
 "preferences_lock_touchid" = "使用触控ID锁定";
@@ -378,6 +385,7 @@
 "preferences_lock_unlock_footnote_click" = "点击上方解锁 AdGuard Home Remote";
 
 // MARK: Help
+"help_callout" = "需要帮助？";
 "settings_help" = "帮助与反馈";
 "settings_help_navbar" = "支持服务";
 "settings_help_contact" = "联系作者";
@@ -393,6 +401,7 @@
 // MARK: Other Settings
 "settings_other" = "其他";
 "settings_pro" = "Pro";
+"settings_leave_review" = "发表评论";
 "settings_twitter" = "在 Twitter 上关注";
 "settings_changelog" = "新增功能";
 "settings_adguard-website" = "AdGuard 主页";
@@ -419,6 +428,8 @@
 "design_app_icon_original" = "原版";
 "design_app_icon_inverse" = "反色";
 "design_app_icon_dark" = "深色";
+"design_app_icon_blueprint" = "Blueprint";
+"design_app_icon_pride" = "Pride";
 "design_theme" = "主题外观";
 "design_system_setting" = "使用系统设置";
 "design_always_lightmode" = "总是使用浅色外观";
@@ -564,3 +575,7 @@
 // MARK: Widgets
 "widget_dashboard" = "仪表盘小组件";
 "widget_dashboard_description" = "查看您的仪表盘统计数据。";
+
+// MARK: Apple Watch
+"loading_instances_icloud" = "Loading instances from iCloud...";
+"watch_stuck_reinstall" = "This can take a while. If the app is stuck on this spinner, please try a reinstall of the app. Sorry for the inconvenience!";

@@ -99,8 +99,8 @@
 "querydetail_copy_upstream" = "Αντιγραφή upstream";
 "querydetail_block_domain" = "Αποκλεισμός domain";
 "querydetail_unblock_domain" = "Άρση αποκλεισμού domain";
-"querydetail_block_domain_for_client" = "Block Domain for this client only";
-"querydetail_unblock_domain_for_client" = "Unblock Domain for this client only";
+"querydetail_block_domain_for_client" = "Block Domain for this client";
+"querydetail_unblock_domain_for_client" = "Unblock Domain for this client";
 "querydetail_answer" = "Απάντηση";
 "querydetail_ttl_%lld" = "TTL %lld";
 
@@ -255,6 +255,8 @@
 "dhcp_remove_lease" = "Αφαίρεση μίσθωσης";
 "dhcp_leases" = "Μισθώσεις";
 "dhcp_lease_create" = "Δημιουργία στατικής μίσθωσης";
+"dhcp_add_client_with_ip" = "New Client (with IP)";
+"dhcp_add_client_with_mac" = "New Client (with MAC)";
 "dhcp_reset_all_leases" = "Reset all leases";
 "dhcp_reset_all_leases_footer" = "Removes all current leases without erasing the lease configuration.";
 "dhcp_reset_all_leases_alert_title" = "Reset Leases";
@@ -298,9 +300,12 @@
 "dns_blocking_mode_customip" = "Προσαρμοσμένη IP";
 "dns_cache_configuration" = "Ρύθμιση κρυφής μνήμης DNS";
 "dns_cache_size" = "Μέγεθος κρυφής μνήμης";
+"dns_cache_size_in_bytes" = "in bytes";
 "dns_cache_optimistic" = "Optimistic";
+"dns_cache_optimistic_explainer" = "Make AdGuard Home respond from the cache even when the entries are expired and also try to refresh them.";
 "dns_override_minimum_ttl" = "Παράκαμψη ελάχιστου TTL";
 "dns_override_maximum_ttl" = "Παράκαμψη μέγιστου TTL";
+"dns_override_in_seconds" = "in seconds";
 "dns_pro_required" = "Το Remote Pro απαιτείται για τη διαχείριση των ρυθμίσεων DNS.";
 
 // MARK: DNS Rewrites
@@ -364,6 +369,8 @@
 "preferences_querylog_show_sidebar" = "Show sidebar";
 "preferences_other" = "Άλλα";
 "preferences_language" = "Γλώσσα";
+"preferences_language_macos_alert" = "Change Language";
+"preferences_language_macos_alert_body" = "To change the language of the app on macOS, open 'System Preferences > Language & Region > Apps' and add the app there.";
 "preferences_lock_password" = "Lock with password";
 "preferences_lock_faceid" = "Lock with Face ID";
 "preferences_lock_touchid" = "Lock with Touch ID";
@@ -378,6 +385,7 @@
 "preferences_lock_unlock_footnote_click" = "Click above to unlock AdGuard Home Remote";
 
 // MARK: Help
+"help_callout" = "Need help?";
 "settings_help" = "Βοήθεια & σχόλια";
 "settings_help_navbar" = "Υποστήριξη";
 "settings_help_contact" = "Επικοινωνία";
@@ -393,6 +401,7 @@
 // MARK: Other Settings
 "settings_other" = "Άλλα";
 "settings_pro" = "Pro";
+"settings_leave_review" = "Αφήστε μια κριτική";
 "settings_twitter" = "Ακολουθήστε στο Twitter";
 "settings_changelog" = "Τι νέο υπάρχει";
 "settings_adguard-website" = "Ιστοσελίδα AdGuard";
@@ -419,6 +428,8 @@
 "design_app_icon_original" = "Πρωτότυπo";
 "design_app_icon_inverse" = "Αντίστροφο";
 "design_app_icon_dark" = "Σκούρο";
+"design_app_icon_blueprint" = "Blueprint";
+"design_app_icon_pride" = "Pride";
 "design_theme" = "Θέμα";
 "design_system_setting" = "Χρήση ρυθμίσεων συστήματος";
 "design_always_lightmode" = "Πάντα ανοιχτόχρωμο";
@@ -493,7 +504,7 @@
 "rocketscience_tipjar_thankyou" = "Ευχαριστώ!";
 "rocketscience_my_other_apps" = "Οι άλλες εφαρμογές μου";
 "rocketscience_piholeremote_subtitle" = "Τα πάντα για το Pi-hole σε ένα μέρος.";
-"rocketscience_energieradar_subtitle" = "Monitor real-time electricity prices in The Netherlands.";
+"rocketscience_energieradar_subtitle" = "Monitor real-time electricity and gas prices in The Netherlands.";
 "rocketscience_acknoledgements" = "Ιδιαίτερες ευχαριστίες στους";
 
 // MARK: Tip Jar
@@ -564,3 +575,7 @@
 // MARK: Widgets
 "widget_dashboard" = "Widget αρχικής";
 "widget_dashboard_description" = "Προβολή των στατιστικών αρχικής.";
+
+// MARK: Apple Watch
+"loading_instances_icloud" = "Loading instances from iCloud...";
+"watch_stuck_reinstall" = "This can take a while. If the app is stuck on this spinner, please try a reinstall of the app. Sorry for the inconvenience!";

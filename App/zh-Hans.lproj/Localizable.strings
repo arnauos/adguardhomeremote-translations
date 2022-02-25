@@ -244,12 +244,21 @@
 "dhcp_status" = "状态";
 "dhcp_enable" = "启用 DHCP 服务器";
 "dhcp_interface" = "接口";
+"dhcp_interface_details" = "Details";
+"dhcp_interface_gateway_ip" = "Gateway IP";
+"dhcp_interface_hardware_address" = "Hardware address";
+"dhcp_interface_ip_addresses" = "IP addresses";
+"dhcp_interface_flags" = "Flags";
 "dhcp_ipv4_settings" = "IPv4 设置";
 "dhcp_gateway_ip" = "网关 IP";
 "dhcp_subnet_mask" = "子网掩码";
 "dhcp_ip_range" = "IP 地址范围";
-"dhcp_lease_time" = "租约时间 (秒)";
+"dhcp_ip_range_start" = "start";
+"dhcp_ip_range_end" = "end";
+"dhcp_lease_time" = "租约时间";
+"dhcp_lease_time_in_seconds" = "秒";
 "dhcp_ipv6_settings" = "IPv6 设置";
+"dhcp_ipv6_settings_unsupported" = "Interface does not support IPv6.";
 "dhcp_range_start" = "起始 IP 地址";
 "dhcp_static_leases" = "静态租约";
 "dhcp_remove_lease" = "删除租约";
@@ -261,6 +270,9 @@
 "dhcp_reset_all_leases_footer" = "移除所有现行的租约而没清除租约配置。";
 "dhcp_reset_all_leases_alert_title" = "重置租约";
 "dhcp_reset_all_leases_alert_body" = "您确定您想重置所有租约吗？";
+"dhcp_reset_dhcp_config" = "Reset DHCP configuration";
+"dhcp_reset_dhcp_config_footer" = "Resets all DHCP settings.";
+"dhcp_reset_dhcp_config_alert_body" = "Are you sure you want to reset the DHCP configuration?";
 "dhcp_pro_required" = "需要 Remote Pro 来管理 DHCP 设置";
 // New Static Lease
 "dhcp_staticlease_new" = "新建静态租约";
@@ -504,6 +516,7 @@
 "rocketscience_tipjar_thankyou" = "万分感谢!";
 "rocketscience_my_other_apps" = "我的其他 App";
 "rocketscience_piholeremote_subtitle" = "关于 Pi-hole 的一切用一个 App 搞定。";
+"rocketscience_mango_subtitle" = "A clean Anime & Manga tracker app, using the MyAnimeList API.";
 "rocketscience_energieradar_subtitle" = "关注荷兰的实时电价。";
 "rocketscience_acknoledgements" = "特别感谢";
 
@@ -577,5 +590,5 @@
 "widget_dashboard_description" = "查看您的仪表盘统计数据。";
 
 // MARK: Apple Watch
-"loading_instances_icloud" = "Loading instances from iCloud...";
-"watch_stuck_reinstall" = "This can take a while. If the app is stuck on this spinner, please try a reinstall of the app. Sorry for the inconvenience!";
+"loading_instances_icloud" = "正在从 iCloud 读取实例...";
+"watch_stuck_reinstall" = "这可能需要一段时间。如果程序长时间卡在此旋转图标处，请尝试重新安装本程序。为此不便深表歉意！";
